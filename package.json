@@ -1,0 +1,24 @@
+{
+  "name": "facebook_accouts_fetcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "run.js",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bookshelf": "^1.2.0",
+    "bookshelf-transaction-manager": "^0.2.4",
+    "express": "^4.18.1",
+    "knex": "^2.3.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20",
+    "qs": "^6.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "npx nodemon run.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC"
+}
